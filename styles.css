@@ -1,0 +1,72 @@
+:root {
+    --radius: 10px;
+    --background-color: white
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Josefin Sans', sans-serif;
+    background: rgb(180,180,183);
+    background: radial-gradient(circle, rgba(180,180,183,1) 0%, rgba(9,105,121,1) 100%, rgba(179,196,245,1) 100%);
+}
+
+#main_box {
+    background-color: white;
+    border-radius: var(--radius);
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border: 2px solid black;
+}
+
+#content {
+    background-color: lightseagreen;
+    border-radius: var(--radius);
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#padding {
+    background-color: lightsteelblue;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: var(--radius);
+}
+
+#border {
+    background-color: lightgreen;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: var(--radius);
+}
+
+#margin {
+    background-color: lightsalmon;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: var(--radius);
+}
